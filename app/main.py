@@ -4,7 +4,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-#Hello Plutoo
+#Hello Plutooo
 @app.get("/")
 def read_root():
     # Filter to show only your custom vars (not AWS_ prefixed)
